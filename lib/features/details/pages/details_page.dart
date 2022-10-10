@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 import 'package:cantwait28/features/details/cubit/details_cubit.dart';
-=======
-import 'package:cantwait28/features/Details/cubit/Details_cubit.dart';
->>>>>>> 6bb68880df0fd454a320f0960b6da8423548316f
 import 'package:cantwait28/models/item_model.dart';
 import 'package:cantwait28/repositories/items_repository.dart';
 import 'package:flutter/material.dart';
