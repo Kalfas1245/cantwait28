@@ -101,9 +101,17 @@ class _ListViewItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
+<<<<<<< HEAD
         Navigator.of(context).push(MaterialPageRoute(
           builder: (context) => DetailsPage(id: itemModel.id),
         ));
+=======
+        Navigator.of(context).push(
+          MaterialPageRoute(
+            builder: (context) => DetailsPage(id: itemModel.id),
+          ),
+        );
+>>>>>>> 6bb68880df0fd454a320f0960b6da8423548316f
       },
       child: Padding(
         padding: const EdgeInsets.symmetric(
